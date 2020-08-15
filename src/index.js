@@ -17,8 +17,6 @@ ReactDom.render(
                 <Route path='/signup' component={Signup} />
             </App>
         </BrowserRouter>
-    </Provider>
-
-    ,
+    </Provider>,
     document.querySelector('#root')
 );
